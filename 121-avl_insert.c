@@ -1,8 +1,8 @@
 #include "binary_trees.h"
 
 /**
- * r_insert_node - node value insertion.
- * @tree: double pointer to the root node.
+ * r_insert_node - node value.
+ * @tree: double pointer.
  * @parent: parent node.
  * @new: double pointer to left or right.
  * @nval: insertion value.
