@@ -6,10 +6,10 @@ int is_avl_helper(const binary_tree_t *tree, int lo, int hi);
 int binary_tree_is_avl(const binary_tree_t *tree);
 
 /**
- * height - Measures the height of a binary tree.
- * @tree: A pointer to the root node of the tree to measure the height.
+ * height - Measures the height.
+ * @tree: A pointer to the root node of the tree.
  *
- * Return: If tree is NULL, your function must return 0, else return height.
+ * Return: If tree is NULL, your function must return 0.
  */
 size_t height(const binary_tree_t *tree)
 {
